@@ -7,5 +7,3 @@ WORKDIR $GOPATH/src/github.com/Masterminds
 RUN git clone https://github.com/Masterminds/glide.git
 RUN cd glide && git checkout $GLIDE_VERSION && make bootstrap-dist && make install
 WORKDIR $GOPATH
-
-
