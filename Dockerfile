@@ -1,6 +1,6 @@
-FROM golang:1.9
+FROM golang:1.10
 
-ENV GLIDE_VERSION v0.12.3
+ENV GLIDE_VERSION v0.13.1
 
 # Install glide
 WORKDIR $GOPATH/src/github.com/Masterminds
